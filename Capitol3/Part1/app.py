@@ -33,6 +33,7 @@ def get_prediction():
             print(value)
             return {'message': "You must add a name and a sex"}, 404
         values.append(value)
+        print(values)
 
     try:
         df= pd.DataFrame(np.array([values]), columns=columns)

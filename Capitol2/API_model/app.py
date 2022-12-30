@@ -13,7 +13,7 @@ app.run(debug=True)
  
 # A decorator used to tell the application
 # which URL is associated function
-@app.route('/', methods =["POST"])
+@app.route('/titanic', methods =["POST"])
 def titanic():
 
    
